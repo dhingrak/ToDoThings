@@ -14,6 +14,9 @@
 		576CF8361E5CBECE00C2CE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576CF8351E5CBECE00C2CE31 /* Assets.xcassets */; };
 		576CF8391E5CBECE00C2CE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576CF8371E5CBECE00C2CE31 /* LaunchScreen.storyboard */; };
 		576CF8441E5CBECE00C2CE31 /* ToDoThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576CF8431E5CBECE00C2CE31 /* ToDoThingsTests.swift */; };
+		576CF84F1E5CC72200C2CE31 /* dataInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576CF84E1E5CC72200C2CE31 /* dataInformation.swift */; };
+		576CF8511E5CD2EC00C2CE31 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576CF8501E5CD2EC00C2CE31 /* CreateTaskViewController.swift */; };
+		576CF8531E5CE26F00C2CE31 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576CF8521E5CE26F00C2CE31 /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		576CF83F1E5CBECE00C2CE31 /* ToDoThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576CF8431E5CBECE00C2CE31 /* ToDoThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoThingsTests.swift; sourceTree = "<group>"; };
 		576CF8451E5CBECE00C2CE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576CF84E1E5CC72200C2CE31 /* dataInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataInformation.swift; sourceTree = "<group>"; };
+		576CF8501E5CD2EC00C2CE31 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		576CF8521E5CE26F00C2CE31 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 			children = (
 				576CF82B1E5CBECE00C2CE31 /* AppDelegate.swift */,
 				576CF82D1E5CBECE00C2CE31 /* ViewController.swift */,
+				576CF8501E5CD2EC00C2CE31 /* CreateTaskViewController.swift */,
+				576CF8521E5CE26F00C2CE31 /* CompleteTaskViewController.swift */,
+				576CF84E1E5CC72200C2CE31 /* dataInformation.swift */,
 				576CF82F1E5CBECE00C2CE31 /* Main.storyboard */,
 				576CF8351E5CBECE00C2CE31 /* Assets.xcassets */,
 				576CF8371E5CBECE00C2CE31 /* LaunchScreen.storyboard */,
@@ -204,9 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576CF84F1E5CC72200C2CE31 /* dataInformation.swift in Sources */,
 				576CF8341E5CBECE00C2CE31 /* ToDoThings.xcdatamodeld in Sources */,
+				576CF8531E5CE26F00C2CE31 /* CompleteTaskViewController.swift in Sources */,
 				576CF82E1E5CBECE00C2CE31 /* ViewController.swift in Sources */,
 				576CF82C1E5CBECE00C2CE31 /* AppDelegate.swift in Sources */,
+				576CF8511E5CD2EC00C2CE31 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				576CF84A1E5CBECE00C2CE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		576CF84B1E5CBECE00C2CE31 /* Build configuration list for PBXNativeTarget "ToDoThingsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				576CF84D1E5CBECE00C2CE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
